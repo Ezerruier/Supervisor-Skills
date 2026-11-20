@@ -173,6 +173,14 @@ Hard writing rules:
    same finding appears in at most three sections.
 7. **No internal scaffolding in the output.** CER skeletons, paradigm calls,
    chain checks all stay silent.
+8. **Report null results plainly; label the analysis, not the result.** Give
+   an analysis its status once, in Methods: primary, secondary, exploratory,
+   or prespecified. A null result is "did not differ", "was not significant",
+   or "did not survive correction". Never relabel it "descriptive". Reserve
+   "descriptive" for analyses not intended for inference (feasibility or
+   pilot work, terminated or underpowered trials, illustrative maps), and
+   never pair it with a multiplicity threshold. One status label per
+   analysis family; captions may repeat it, running text should not.
 
 ### Phase 4.5: Red flags (stop signals while writing)
 

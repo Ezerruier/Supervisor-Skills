@@ -149,6 +149,34 @@ reasonable-but-open findings; weak (may reflect, appears to) for speculation.
 See: references/academic-phrasebank.md for the full verb ladder and phrase
 alternatives.
 
+## Labelling non-significant results
+
+`descriptive` describes what an analysis is for, not what its result happened
+to be. Recent trial and neuroimaging papers rarely use it for a null finding;
+they report the null result directly and label the analysis family once.
+
+Do:
+
+- Report the estimate, its CI, and p, then say what happened: "did not differ",
+  "was not significant", "did not survive correction for four tests".
+- Put the status in Methods: "secondary and not adjusted for multiplicity",
+  "exploratory", "prespecified".
+- Keep one status label per analysis family. A figure caption may repeat it
+  for self-containment; the running text should not.
+
+Do not:
+
+- Write "these analyses were descriptive" because the result was null.
+- Pair "descriptive" with a correction threshold ("descriptive; Bonferroni
+  p = 0.0125"): the two statements contradict each other.
+- Repeat "descriptive" twice in one paragraph, or once per figure and again
+  in the text, unless the figure caption must stand alone.
+
+Reserve "descriptive" for analyses genuinely not intended for inference:
+feasibility or pilot studies, terminated or underpowered trials,
+illustrative maps, descriptive summaries. When you use it, say why in the
+same breath ("descriptive and not used for cluster-level inference").
+
 ## Be fair to prior work
 
 Do not flatten prior studies into a straw man to make the present paper look
